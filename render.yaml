@@ -1,0 +1,15 @@
+# render.yaml — Render.com Blueprint for one-click deployment
+# Deploy: https://render.com/deploy?repo=<your-github-repo-url>
+
+services:
+  - type: web
+    name: tamilguard-ai
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter        # $7/mo — 512MB RAM, suitable for PyTorch CPU
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: PYTHON_VERSION
+        value: "3.11"

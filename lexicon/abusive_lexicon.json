@@ -1,0 +1,1319 @@
+{
+  "_meta": {
+    "total_entries": 116,
+    "total_variants": 334,
+    "by_category": {
+      "profanity": 53,
+      "threat": 13,
+      "sexual": 33,
+      "misogyny": 4,
+      "misandry": 2,
+      "caste-slur": 5,
+      "xenophobia": 2,
+      "homophobia": 2,
+      "religion_hate": 1,
+      "racism": 1
+    },
+    "by_severity": {
+      "low": 10,
+      "medium": 40,
+      "high": 66
+    },
+    "categories": [
+      "caste-slur",
+      "homophobia",
+      "misandry",
+      "misogyny",
+      "profanity",
+      "racism",
+      "religion_hate",
+      "sexual",
+      "threat",
+      "xenophobia"
+    ],
+    "severities": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "sources": [
+      "corpus_llr_analysis",
+      "triplets_seed",
+      "manual_curation"
+    ],
+    "variant_method": "levenshtein_edit_distance_on_offensive_corpus_vocab"
+  },
+  "entries": {
+    "திட்டு": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "low",
+      "script": "TAMIL",
+      "meaning_en": "scold / verbal abuse (act noun)"
+    },
+    "வசவு": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "low",
+      "script": "TAMIL",
+      "meaning_en": "curse / swearing (act noun)"
+    },
+    "கோபம்": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "low",
+      "script": "TAMIL",
+      "meaning_en": "anger"
+    },
+    "கெட்ட": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "low",
+      "script": "TAMIL",
+      "meaning_en": "bad / wicked"
+    },
+    "மோசம்": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "low",
+      "script": "TAMIL",
+      "meaning_en": "bad / worse"
+    },
+    "அசிங்கம்": {
+      "variants": [
+        "அசிங்க",
+        "அசிங்கமா"
+      ],
+      "category": "profanity",
+      "severity": "low",
+      "script": "TAMIL",
+      "meaning_en": "filthy / disgusting"
+    },
+    "எரிச்சல்": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "low",
+      "script": "TAMIL",
+      "meaning_en": "irritation / vexation"
+    },
+    "அவமானம்": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "insult / humiliation"
+    },
+    "அவதூறு": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "slander / defamation"
+    },
+    "தூஷணம்": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "verbal abuse"
+    },
+    "கொச்சை": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "vulgar / crude"
+    },
+    "நிந்தனை": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "contempt / insult"
+    },
+    "வெறுப்பு": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "hatred / disgust"
+    },
+    "கீழ்த்தரம்": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "low-quality / degrading"
+    },
+    "பழி": {
+      "variants": [],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "blame / accusation"
+    },
+    "தீங்கு": {
+      "variants": [],
+      "category": "threat",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "harm / damage"
+    },
+    "தாக்கு": {
+      "variants": [],
+      "category": "threat",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "attack"
+    },
+    "புண்படுத்து": {
+      "variants": [],
+      "category": "threat",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "wound / hurt"
+    },
+    "பயமுறுத்து": {
+      "variants": [],
+      "category": "threat",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "threaten"
+    },
+    "தேவிடியா": {
+      "variants": [
+        "தேவுடியா",
+        "தேவடியா",
+        "தேவ்டியா",
+        "தேவிடிய",
+        "தேவுடிய",
+        "தேவ்டி",
+        "தேவடி"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "prostitute (extreme insult)",
+      "cross_ref": "thevidiya"
+    },
+    "thevidiya": {
+      "variants": [
+        "thevudiya",
+        "thevidiyaa",
+        "thevadiya",
+        "devidiya",
+        "devdiya",
+        "thevudiyaa",
+        "thevidiyya",
+        "tdevdiya",
+        "thevadiyaa"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "prostitute (extreme insult, Tanglish)",
+      "cross_ref": "தேவிடியா"
+    },
+    "வேசி": {
+      "variants": [
+        "வேசிக்கு",
+        "வேசிங்க",
+        "வேசித்தனம்"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "whore / prostitute (insult)"
+    },
+    "அவுசாரி": {
+      "variants": [
+        "அவசாரி",
+        "அவுசாரிக"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "loose / immoral woman (insult)"
+    },
+    "புண்டை": {
+      "variants": [
+        "புண்ட",
+        "புண்டா",
+        "புண்டைக",
+        "புண்டைகள",
+        "புண்டைங்க",
+        "புண்",
+        "புண்டைங்களா",
+        "புண்டைய"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "female genitalia (extreme profanity)",
+      "cross_ref": "pundai"
+    },
+    "pundai": {
+      "variants": [
+        "punda",
+        "pundaigala",
+        "pundainga",
+        "pundaingala",
+        "punde",
+        "pundaikala",
+        "punn"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "female genitalia (extreme profanity, Tanglish)",
+      "cross_ref": "புண்டை"
+    },
+    "சுன்னி": {
+      "variants": [
+        "சுன்னிய",
+        "சுண்ணி",
+        "சுண்ணிய",
+        "சுண்ணிக"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "penis (crude profanity)",
+      "cross_ref": "sunni"
+    },
+    "sunni": {
+      "variants": [
+        "sunniya",
+        "sunny"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "penis (crude profanity, Tanglish)",
+      "cross_ref": "சுன்னி"
+    },
+    "கூதி": {
+      "variants": [
+        "கூதில",
+        "கூதிக",
+        "கூதிங்க"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "female genitalia (extreme vulgarity)",
+      "cross_ref": "kuthi"
+    },
+    "kuthi": {
+      "variants": [
+        "koodhi",
+        "kujay",
+        "koothingala",
+        "kootha",
+        "koothu",
+        "koodhu",
+        "kuthu"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "female genitalia (extreme vulgarity, Tanglish)",
+      "cross_ref": "கூதி"
+    },
+    "குண்டி": {
+      "variants": [
+        "குண்டிக",
+        "குண்டிங்க"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "buttocks (vulgar)",
+      "cross_ref": "kundi"
+    },
+    "kundi": {
+      "variants": [
+        "kundii",
+        "kunji"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "buttocks (vulgar, Tanglish)",
+      "cross_ref": "குண்டி"
+    },
+    "ஊம்பி": {
+      "variants": [
+        "ஊம்புடா",
+        "ஊம்பு",
+        "ஊம்ப"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "oral sex act (vulgar verb form)"
+    },
+    "oombi": {
+      "variants": [
+        "oombitu",
+        "oomba",
+        "umbi"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "oral sex act (vulgar, Tanglish)"
+    },
+    "ஓக்க": {
+      "variants": [
+        "ஓல்",
+        "ஓத்த",
+        "ஓத்தா",
+        "ஓத்து"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "sexual intercourse (vulgar verb)"
+    },
+    "gaandu": {
+      "variants": [
+        "gaandla",
+        "gandla",
+        "gandula",
+        "gaand",
+        "gandu",
+        "kaandu"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "anus / homosexual slur (extremely vulgar)"
+    },
+    "poolu": {
+      "variants": [
+        "polu",
+        "poola",
+        "pootu"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "penis (vulgar slang)"
+    },
+    "குஞ்சு": {
+      "variants": [
+        "குஞ்சித்"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "penis (crude diminutive slang)",
+      "cross_ref": "kunju"
+    },
+    "kunju": {
+      "variants": [
+        "kunjith",
+        "kunjugal",
+        "kunjunga",
+        "kunjun"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "penis (crude diminutive slang, Tanglish)",
+      "cross_ref": "குஞ்சு"
+    },
+    "மயிறு": {
+      "variants": [
+        "மயிர்",
+        "மயிரு"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "pubic hair (extreme expletive)",
+      "cross_ref": "mayiru"
+    },
+    "mayiru": {
+      "variants": [
+        "mairum",
+        "mayir",
+        "mairu"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "pubic hair (extreme expletive, Tanglish)",
+      "cross_ref": "மயிறு"
+    },
+    "நாய்": {
+      "variants": [
+        "நாய்க",
+        "நாயிங்க",
+        "நாயே",
+        "ஓநாய்",
+        "நாயி"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "dog (used as insult)",
+      "cross_ref": "naai"
+    },
+    "naai": {
+      "variants": [
+        "naaya",
+        "naya",
+        "naiga",
+        "naigala",
+        "nai"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "dog (insult, Tanglish)",
+      "cross_ref": "நாய்"
+    },
+    "பன்றி": {
+      "variants": [
+        "பன்றிங்க"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "pig (insult, often anti-Muslim in context)"
+    },
+    "pandravan": {
+      "variants": [
+        "pandran"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "pig-person (insulting label)"
+    },
+    "மவன்": {
+      "variants": [
+        "மவன",
+        "மவனே",
+        "மகனே"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "son-of-whore (maternal sexual insult)",
+      "cross_ref": "mavane"
+    },
+    "mavane": {
+      "variants": [
+        "mavaney",
+        "mavana",
+        "mavan",
+        "mavanee",
+        "avane"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "son-of-whore (maternal sexual insult, Tanglish)",
+      "cross_ref": "மவன்"
+    },
+    "தாயொலி": {
+      "variants": [
+        "தாயொல்"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "mother-sexual insult",
+      "cross_ref": "thayoli"
+    },
+    "thayoli": {
+      "variants": [
+        "tayoli",
+        "thayolee"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "mother-sexual insult (Tanglish)",
+      "cross_ref": "தாயொலி"
+    },
+    "முட்டால்": {
+      "variants": [
+        "முட்டாள்",
+        "முட்டால",
+        "முட்டா"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "stupid / idiot"
+    },
+    "mutta": {
+      "variants": [
+        "muttala",
+        "mutal",
+        "muttaa",
+        "mutti",
+        "muttal"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "stupid / idiot (Tanglish)"
+    },
+    "லூசு": {
+      "variants": [
+        "லூசுக",
+        "லூசுங்க"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "crazy / idiot",
+      "cross_ref": "loosu"
+    },
+    "loosu": {
+      "variants": [
+        "losu",
+        "loosuu",
+        "lusu",
+        "loose",
+        "loosupayyan",
+        "loosunga"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "crazy / idiot (Tanglish)",
+      "cross_ref": "லூசு"
+    },
+    "mokkaya": {
+      "variants": [
+        "mokkanu",
+        "mokkaiya",
+        "moka",
+        "mokka",
+        "mokkai"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "useless / dull / stupid"
+    },
+    "payale": {
+      "variants": [
+        "payala",
+        "paiya",
+        "paya",
+        "payalugala"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "rascal / idiot"
+    },
+    "பையா": {
+      "variants": [
+        "பயலே",
+        "பயலுக"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "rascal / fellow (derogatory)"
+    },
+    "kiruku": {
+      "variants": [
+        "kirukkan",
+        "kirukku"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "crazy / eccentric (insult)"
+    },
+    "கழுதை": {
+      "variants": [
+        "கழுதைங்க"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "donkey (insult)"
+    },
+    "paavigala": {
+      "variants": [
+        "paavingala",
+        "paavi"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "sinners / wicked ones (insult)"
+    },
+    "மானங்கெட்ட": {
+      "variants": [
+        "மானங்கெட்டவன்"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "shameless (insult)"
+    },
+    "கேவலம்": {
+      "variants": [
+        "கேவலமான",
+        "கேவலப்படுத்து"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "degrading / humiliating",
+      "cross_ref": "kevalam"
+    },
+    "kevalam": {
+      "variants": [
+        "kevalamaana",
+        "kevalama",
+        "kevala"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "degrading / humiliating (Tanglish)",
+      "cross_ref": "கேவலம்"
+    },
+    "பொம்பள": {
+      "variants": [
+        "பொம்பளை",
+        "பொம்பளைக",
+        "பொம்பளாக"
+      ],
+      "category": "misogyny",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "woman (contemptuous; used as slur)"
+    },
+    "பொட்டை": {
+      "variants": [
+        "பொட்டைக",
+        "பொட்ட"
+      ],
+      "category": "misogyny",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "girl / feminine (contemptuous; also homophobic slur)"
+    },
+    "பெண்டாட்டி": {
+      "variants": [
+        "பெண்டாட்டியை",
+        "பொண்டாட்டிய",
+        "பொண்டாட்டி"
+      ],
+      "category": "misogyny",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "wife (used contemptuously in misogynistic context)"
+    },
+    "aanmai": {
+      "variants": [
+        "aanmaiyilla",
+        "aanmayilla",
+        "aamai",
+        "anmai"
+      ],
+      "category": "misandry",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "manhood (used contemptuously to mock masculinity)"
+    },
+    "kelavan": {
+      "variants": [
+        "keluvan"
+      ],
+      "category": "misandry",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "old man (used derogatorily)"
+    },
+    "வந்தேறி": {
+      "variants": [
+        "வந்தேரி",
+        "வந்தேறிக",
+        "வந்தேறிகள"
+      ],
+      "category": "caste-slur",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "outsider / migrant (Aryan-origin derogatory label)"
+    },
+    "பரதேசி": {
+      "variants": [
+        "பரதேசிக",
+        "பரதேசிங்க"
+      ],
+      "category": "caste-slur",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "foreigner (contemptuous, targeting northern migrants)"
+    },
+    "ஈனப்பிறவி": {
+      "variants": [],
+      "category": "caste-slur",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "low-born (extreme caste insult)"
+    },
+    "சூத்திரன்": {
+      "variants": [
+        "சூத்திர",
+        "சூத்திரனுக்கு"
+      ],
+      "category": "caste-slur",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "Shudra (caste slur targeting lower castes)"
+    },
+    "பார்ப்பனீய": {
+      "variants": [
+        "பார்ப்பனன்",
+        "பார்ப்பான்"
+      ],
+      "category": "caste-slur",
+      "severity": "medium",
+      "script": "TAMIL",
+      "meaning_en": "Brahminical (pejorative usage targeting caste supremacy)"
+    },
+    "துலுக்கன்": {
+      "variants": [
+        "துலுக்கி",
+        "துலுக்கர்",
+        "துலுக்கன"
+      ],
+      "category": "xenophobia",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "slur for Muslim people"
+    },
+    "அலி": {
+      "variants": [
+        "ஆலி",
+        "அலிக"
+      ],
+      "category": "homophobia",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "eunuch / transgender person (used as homophobic slur)"
+    },
+    "saava": {
+      "variants": [
+        "savunga",
+        "saavungada",
+        "savanum",
+        "saavunga",
+        "saavanum",
+        "saaga"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "die (death-wish / threat)"
+    },
+    "seththu": {
+      "variants": [
+        "seththukka",
+        "seththa",
+        "saganum"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "die / dead (death-wish threat)"
+    },
+    "செத்துடு": {
+      "variants": [
+        "செத்துருடா",
+        "செத்திடு",
+        "செத்தோ"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "go die (death-wish command)"
+    },
+    "உயிரோட": {
+      "variants": [
+        "உயிரோட விடமாட்டேன்"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "TAMIL",
+      "meaning_en": "alive – as in 'won't let you live' (threat phrase)"
+    },
+    "kollama": {
+      "variants": [
+        "kollamaten",
+        "kollave",
+        "kollaven",
+        "kollame"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "won't leave / will pursue (implied threat phrase)"
+    },
+    "vidamaten": {
+      "variants": [
+        "vidamatten",
+        "vidamaaten"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "won't let go (threat)"
+    },
+    "ommala": {
+      "variants": [
+        "ommalae",
+        "ommalay",
+        "ommalaya",
+        "ommale",
+        "omala",
+        "omalay",
+        "omaala",
+        "omaalae",
+        "gommala"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "your mother (mother-sexual insult, Tanglish)"
+    },
+    "naaye": {
+      "variants": [
+        "naye",
+        "naigal"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "dog (insult, Tanglish variant)",
+      "cross_ref": "நாய்"
+    },
+    "kazhutha": {
+      "variants": [
+        "kazhudhaa",
+        "kazhuda",
+        "kazhuthai",
+        "kazhudha"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "donkey (insult, Tanglish)"
+    },
+    "pottai": {
+      "variants": [
+        "pottaiya",
+        "pottaigal",
+        "pottae",
+        "pottay",
+        "potta"
+      ],
+      "category": "misogyny",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "girl / feminine (contemptuous, homophobic slur, Tanglish)"
+    },
+    "myru": {
+      "variants": [
+        "myiru"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "pubic hair (extreme expletive, Tanglish short form)",
+      "cross_ref": "மயிறு"
+    },
+    "sunnia": {
+      "variants": [
+        "sunnii"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "penis (crude, Tanglish extended form)"
+    },
+    "koothi": {
+      "variants": [
+        "koothiya",
+        "koodhiya"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "female genitalia / ass (extreme vulgarity, social media form)"
+    },
+    "pundaya": {
+      "variants": [
+        "pundae",
+        "pundaiye"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "female genitalia (variant social-media spelling)",
+      "cross_ref": "புண்டை"
+    },
+    "thevdiya": {
+      "variants": [
+        "thevdiyaa",
+        "thevdiyae"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "prostitute (short social-media form of thevidiya)",
+      "cross_ref": "தேவிடியா"
+    },
+    "podi": {
+      "variants": [
+        "podiya",
+        "podiyan",
+        "oodi",
+        "poyi"
+      ],
+      "category": "profanity",
+      "severity": "low",
+      "script": "LATIN",
+      "meaning_en": "brat / runt (dismissive, used at girls)"
+    },
+    "sothu": {
+      "variants": [
+        "sothuda",
+        "sotha"
+      ],
+      "category": "profanity",
+      "severity": "low",
+      "script": "LATIN",
+      "meaning_en": "property / inheritance (used dismissively as insult in some contexts)"
+    },
+    "mental": {
+      "variants": [
+        "mentalaa",
+        "mentala",
+        "mentalah",
+        "mentalavane"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "mental / crazy (insult)"
+    },
+    "idiot": {
+      "variants": [
+        "idiota",
+        "idiotts",
+        "idiots"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "idiot (English insult, common in comments)"
+    },
+    "dai": {
+      "variants": [
+        "dei",
+        "yei",
+        "di",
+        "adai",
+        "daii"
+      ],
+      "category": "profanity",
+      "severity": "low",
+      "script": "LATIN",
+      "meaning_en": "hey (aggressive address particle, used before insults)"
+    },
+    "cunt": {
+      "variants": [
+        "cunts",
+        "cuntface",
+        "cunty",
+        "kunt",
+        "kunts"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "female genitalia (extreme English profanity)"
+    },
+    "pussy": {
+      "variants": [
+        "pussies",
+        "pussycat",
+        "pussi"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "female genitalia / coward (English profanity)"
+    },
+    "whore": {
+      "variants": [
+        "whores",
+        "whoress",
+        "whor",
+        "w h o r e"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "whore / prostitute (English insult)"
+    },
+    "slut": {
+      "variants": [
+        "sluts",
+        "slutty",
+        "slutface"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "slut (sexual English insult)"
+    },
+    "bitch": {
+      "variants": [
+        "bitches",
+        "bich",
+        "btch",
+        "b1tch",
+        "b!tch",
+        "biatch",
+        "beotch"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "bitch (English insult, both sexual and general)"
+    },
+    "motherfucker": {
+      "variants": [
+        "motherfuckers",
+        "muthafucka",
+        "mothafucka",
+        "mofo",
+        "mf",
+        "m0therfucker",
+        "muddafucka"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "motherfucker (extreme English profanity)"
+    },
+    "fuck": {
+      "variants": [
+        "fucker",
+        "fuckers",
+        "fucking",
+        "fck",
+        "fuk",
+        "fvck",
+        "f*ck",
+        "f**k",
+        "fu*k",
+        "fukk",
+        "fucks"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "fuck (English profanity)"
+    },
+    "dick": {
+      "variants": [
+        "dicks",
+        "dickhead",
+        "dikhead",
+        "d1ck",
+        "dik"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "penis (crude English insult)"
+    },
+    "cock": {
+      "variants": [
+        "cocks",
+        "cockhead",
+        "c0ck",
+        "c*ck"
+      ],
+      "category": "sexual",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "penis (crude English insult)"
+    },
+    "asshole": {
+      "variants": [
+        "assholes",
+        "arsehole",
+        "a**hole",
+        "a**",
+        "a-hole"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "asshole (English insult)"
+    },
+    "ass": {
+      "variants": [
+        "asses",
+        "a$$",
+        "azz"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "ass (mild English profanity/insult)"
+    },
+    "bastard": {
+      "variants": [
+        "bastards",
+        "bastad",
+        "b@stard"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "bastard (English insult)"
+    },
+    "shit": {
+      "variants": [
+        "shits",
+        "shitty",
+        "sh1t",
+        "sh*t",
+        "sht"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "shit (English profanity)"
+    },
+    "stupid": {
+      "variants": [
+        "stupids",
+        "stoopid"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "stupid (English insult)"
+    },
+    "donkey": {
+      "variants": [
+        "donkeys",
+        "donkeyz"
+      ],
+      "category": "profanity",
+      "severity": "medium",
+      "script": "LATIN",
+      "meaning_en": "donkey (English insult)"
+    },
+    "retard": {
+      "variants": [
+        "retards",
+        "r3tard",
+        "retarded"
+      ],
+      "category": "profanity",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "retard (ableist slur, English)"
+    },
+    "kill": {
+      "variants": [
+        "killing",
+        "kills",
+        "gonna kill",
+        "will kill"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "kill (threat, English)"
+    },
+    "rape": {
+      "variants": [
+        "raping",
+        "rapist",
+        "raped"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "rape (sexual threat, English)"
+    },
+    "die": {
+      "variants": [
+        "go die",
+        "just die",
+        "drop dead"
+      ],
+      "category": "threat",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "die (death-wish, English)"
+    },
+    "terrorist": {
+      "variants": [
+        "terrorists",
+        "terror"
+      ],
+      "category": "religion_hate",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "terrorist (used as religious slur)"
+    },
+    "racist": {
+      "variants": [
+        "racists",
+        "racism"
+      ],
+      "category": "xenophobia",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "racist (English label used abusively)"
+    },
+    "faggot": {
+      "variants": [
+        "faggots",
+        "fag",
+        "fags",
+        "f4ggot"
+      ],
+      "category": "homophobia",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "faggot (homophobic slur, English)"
+    },
+    "nigger": {
+      "variants": [
+        "n****r",
+        "nig",
+        "nigg",
+        "nigga"
+      ],
+      "category": "racism",
+      "severity": "high",
+      "script": "LATIN",
+      "meaning_en": "racial slur (extreme racism)"
+    }
+  }
+}

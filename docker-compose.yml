@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  tamilguard:
+    build: .
+    container_name: tamilguard-ai
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+    restart: unless-stopped
+    # Uncomment and adjust if using GPU
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]

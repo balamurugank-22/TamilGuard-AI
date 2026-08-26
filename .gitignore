@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Large FastText embeddings (not needed at runtime — baked into checkpoint)
+embeddings/*.bin
+embeddings/*.model
+embeddings/*.npy
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Misc
+*.log
+nul
+
+# Data files (too large for git)
+Datasets/
+data/
+Abusive_Detection_Flowchart.png

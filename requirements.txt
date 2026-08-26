@@ -1,0 +1,11 @@
+# Python
+torch
+pandas
+gensim
+pytorch-crf
+scikit-learn
+regex
+numpy
+flask
+flask-cors
+gunicorn

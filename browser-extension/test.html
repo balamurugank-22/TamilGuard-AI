@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TamilGuard Extension Test Page</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; }
+        .comment { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 8px; }
+        .comment-header { font-weight: bold; margin-bottom: 10px; color: #555; }
+        .comment-body { font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>TamilGuard Extension Test Page</h1>
+    <p>If the extension is installed and enabled, any abusive comments below should be automatically blurred or hidden.</p>
+    <hr>
+
+    <div class="comment">
+        <div class="comment-header">User 1 (Safe Comment)</div>
+        <p class="comment-body">This is a perfectly safe comment. I really enjoyed this video, thanks for sharing!</p>
+    </div>
+
+    <div class="comment">
+        <div class="comment-header">User 2 (Abusive Tanglish)</div>
+        <p class="comment-body">Poda venna, un moonjila thuppanum. You are an idiot.</p>
+    </div>
+
+    <div class="comment">
+        <div class="comment-header">User 3 (Abusive Tamil)</div>
+        <p class="comment-body">நீ ஒரு முட்டாள். அறிவுகெட்டவனே.</p>
+    </div>
+    
+    <div class="comment">
+        <div class="comment-header">User 4 (Safe Tamil)</div>
+        <p class="comment-body">வணக்கம்! உங்கள் பதிவு அருமையாக உள்ளது.</p>
+    </div>
+</body>
+</html>
