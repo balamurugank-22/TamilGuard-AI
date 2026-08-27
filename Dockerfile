@@ -9,8 +9,8 @@
 FROM node:20 AS frontend-builder
 
 WORKDIR /app/frontend
-COPY frontend/package.json frontend/package-lock.json ./
-RUN npm ci --production=false
+COPY frontend/package.json ./
+RUN npm install --include=optional
 COPY frontend/ ./
 RUN npm run build
 
@@ -46,4 +46,5 @@ HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
   CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')" || exit 1
 
 # Run with Gunicorn (1 worker to keep memory low with PyTorch)
-CMD ["gunicorn", "serve:app", "--bind", "0.0.0.0:5000", "--workers", "1", "--timeout", "120"]
+# We use sh -c to ensure the environment variable $PORT is expanded
+CMD ["sh", "-c", "gunicorn serve:app --bind 0.0.0.0:${PORT:-5000} --workers 1 --timeout 120"]
