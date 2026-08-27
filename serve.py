@@ -58,6 +58,12 @@ import sys
 import time
 from pathlib import Path
 
+# --- Memory Optimization for Render Free Tier ---
+import torch
+# Limit PyTorch to 1 thread to massively reduce memory footprint
+torch.set_num_threads(1)
+# ------------------------------------------------
+
 # Force UTF-8 output on Windows (avoids cp1252 UnicodeEncodeError for Tamil)
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
