@@ -24,9 +24,9 @@ RUN apt-get update && \
 
 WORKDIR /app
 
-# Install Python dependencies
+# Install Python dependencies (Using CPU-only PyTorch for Render Free Tier)
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
 
 # Copy application code
 COPY inference.py normalize.py redact.py serve.py torchcrf.py ./
@@ -43,8 +43,7 @@ EXPOSE 5000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
-  CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')" || exit 1
-
+  CMD python -c "import urllib.request, os; port=os.environ.get('PORT', '5000'); urllib.request.urlopen(f'http://localhost:{port}/health')" || exit 1
 # Run with Gunicorn (1 worker to keep memory low with PyTorch)
 # We use sh -c to ensure the environment variable $PORT is expanded
 CMD ["sh", "-c", "gunicorn serve:app --bind 0.0.0.0:${PORT:-5000} --workers 1 --timeout 120"]
